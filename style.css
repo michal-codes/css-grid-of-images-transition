@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.houses-showcase {
+  list-style: none;
+  width: 100%;
+}
+.houses-showcase li {
+  width: 25%;
+  display: block;
+  float: left;
+}
+
+.house-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+.house-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.house-photo img:hover {
+  transform: scale(1.04);
+  opacity: 1;
+}
