@@ -6,6 +6,7 @@ CSS snippet using grid of images with hover CSS selector
 
 - display images in row of 4's
 - use of transition to animate scale and opacity transition(darker to lighter using backgorund color on parent element)
+- use of clearfix class to clear floats and use :after pseudo-element in CSS
 
 # Instructions
 
